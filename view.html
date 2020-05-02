@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="all.css">
+</head>
+<body>
+    
+    <div class="container" id='see'><br><br>
+        <h1>See Your entries and edit here</h1>
+        <div>
+            <table id="viewer" class="table table-striped">
+                <tr>
+                <th>Serial no</th>
+                <th>Name</th>
+                <th>age</th>
+                <th>phone</th>
+                <th>email</th>
+                <th></th>
+                </tr>
+            </table>
+        </div>
+     <button class="btn btn-primary width_20" onclick="location.href = 'view.html'">refresh</button><button class="btn btn-success float_r width_20" onclick="confirm();">Confirm</button>
+  </div>
+<section id="edit">
+    <h1>editor section</h1>
+    <div class="container">
+        <div class="input-group mb-3 input-group-lg">
+            <div class="input-group-prepend">
+             <span class="input-group-text">Name:</span>
+           </div>
+         <input id="ename" type="text" class="form-control" placeholder="enter name">
+        </div>
+        <div class="input-group mb-3 input-group-lg">
+            <div class="input-group-prepend">
+              <span class="input-group-text">Age:</span>
+            </div>
+         <input id="eage" type="text" class="form-control" placeholder="enter age">
+        </div>
+
+        <div class="input-group mb-3 input-group-lg">
+            <div class="input-group-prepend">
+             <span class="input-group-text">Phone:</span>
+            </div>
+         <input id="ephone" type="text" class="form-control" placeholder="enter phone">
+        </div>
+
+
+        <div class="input-group mb-3 input-group-lg">
+            <div class="input-group-prepend">
+              <span class="input-group-text">Email:</span>
+            </div>
+         <input id="eemail" type="text" class="form-control" placeholder="enter email">
+        </div>
+       <button class="btn btn-info w-100" onclick="set();">change</button> <br>
+    </div>
+</section>
+
+</body>
+<script src="view.js"></script>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>index</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="all.css">
+</head>
+<body>
+    <div class="container"><br><br>
+        <h1>Local storage list</h1>
+        <div class="input-group mb-3 input-group-lg">
+           <div class="input-group-prepend">
+         <span class="input-group-text"> name:</span>
+         </div> 
+         <input id="name" type="text" class="form-control" placeholder="Enter the name"/>
+        </div>
+        
+        <div class="input-group mb-3 input-group-lg">
+            <div class="input-group-prepend">
+          <span class="input-group-text">age:</span>
+          </div>
+         <input id="age" type="text" class="form-control"  placeholder="Enter age"/>
+        </div>
+
+        <div class="input-group mb-3 input-group-lg">
+          <div class="input-group-prepend">
+          <span class="input-group-text">Phone:</span></div>
+          <input id="phone" type="text"  class="form-control"  placeholder="Enter phone no"/>
+        </div>
+
+        <div class="input-group mb-3 input-group-lg">
+            <div class="input-group-prepend">
+             <span class="input-group-text">email:</span>
+            </div>
+        <input id="email" type="text"  class="form-control"  placeholder="Enter email Id"/>
+        </div><br> 
+       <button onclick="view();" class="btn btn-success width_20" >view</button> <button class="btn btn-danger float_r width_20" onclick="submit();">submit</button>
+        <button class="btn btn-warning width_20" onclick="n();">add</button>
+  </div>
+
+    <script src="index.js"></script>
+</body>
+</html>

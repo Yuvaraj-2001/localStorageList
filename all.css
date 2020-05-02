@@ -1,0 +1,10 @@
+.float_r{
+    float: right;
+}
+.width_20{
+    width: 20%;
+    color: white;
+}
+#edit{
+    display: none;
+}
